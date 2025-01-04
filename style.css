@@ -1,5 +1,36 @@
 a {
   color: black;
+  font-family: Manrope;  
+  text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-family: Manrope;  
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+p {
+    font-size: 1.1em;
+    font-family: Manrope;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-size: 2em;
+    color: #a5b4fc;
+    font-family: Montserrat;
+}
+
+li {
+    font-size: 1em;
+    font-family: Manrope;
 }
 
 .important {
