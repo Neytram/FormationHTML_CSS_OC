@@ -22,6 +22,7 @@ h1 {
   font-size: 3.5em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
 }
 
 h2 {
@@ -38,6 +39,25 @@ header,
 footer {
   background-color: white;
   padding: 20px 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menubutton{
+  padding-left: 150px;
+  font-size: 1.3em;
 }
 
 .cta {
@@ -81,4 +101,71 @@ section {
 .a-propos-main {
   width: 50%;
   margin: auto;
+}
+
+.logofooter {
+  height: 32px;
+}
+
+.socialicon {
+  padding-left: 40px;
+}
+
+/* ACCUEIL FIRST BLOCK */
+.accueilFstBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.accueilFstBlock-TxtClmn {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accueilFstBlock-TxtClmn-TxtBlck {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+.accueilFstBlock-TxtClmn p {
+  font-size: 1.2em;
+}
+
+.RobbieLensPic {
+  width: 500px;
+}
+
+/* ACCUEIL SECOND BLOCK */
+
+.accueilSndBlock {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.accueilSndBlock h2 {
+  color: black;
+  text-align: center;
+  font-size: 3em;
+}
+
+.boutonportfolio {
+  margin-top: 40px;
+}
+
+.accueilSndBlock-PicRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.accueilSndBlock-PicRow-Pic {
+  margin: 10px;
 }
