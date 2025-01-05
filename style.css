@@ -37,6 +37,14 @@ li {
 header,
 footer {
   background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+section {
+  padding: 80px;
 }
 
 .cta {
@@ -61,4 +69,22 @@ a:hover {
 .carre-contenu {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+  padding: 50px;
 }
+
+.apcontenu {
+  margin: auto;
+  width: 60%;
+}
+
+.carre-contenu h2 {
+  padding-top: 40px;
+}
+
+.carre-contenu ul {
+  padding-top: 30px;
+}
+
+
+
+
