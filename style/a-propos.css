@@ -18,6 +18,23 @@
 }
 
 .a-propos-main {
-  width: 50%;
+  width: 80%;
   margin: auto;
+}
+
+
+table {
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th, table td {
+  border: 1px solid #8e86b5;
+}
+
+td {
+  padding: 30px;
+  text-align: center;
 }
